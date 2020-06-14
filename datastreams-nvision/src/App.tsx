@@ -2,11 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import TestComponent from './component/TestComponent';
+import NavBar from './component/NavBar';
 
 function App() {
   let test = "testString";
   return (
-    <div className="App">
+  <>
+  <NavBar></NavBar>
+    <div className="App"> 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -23,6 +26,7 @@ function App() {
         </a>
       </header>
     </div>
+  </>
   );
 }
 
