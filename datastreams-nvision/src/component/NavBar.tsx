@@ -8,14 +8,14 @@ class NavBar extends React.Component {
           <div className="sidebar">
               <h2>Datastreams</h2>
               <ul>                
-                  <li><a href="#"><i className="fas fa-home"></i>Dashboard</a></li>
-                  <li><a href="#"><i className="fas fa-user"></i>Documenten</a></li>
-                  <li><a href="#"><i className="fas fa-address-card"></i>Berichten</a></li>
-                  <li><a href="#"><i className="fas fa-project-diagram"></i>Bronnen</a></li>
-                  <li><a href="#"><i className="fas fa-blog"></i>Bestanden delen</a></li>
+                  <li><a href="/Dashboard"><i className="fas"></i>Dashboard</a></li>
+                  <li><a href="/Documents"><i className="fas"></i>Documenten</a></li>
+                  <li><a href="#"><i className="fas"></i>Berichten</a></li>
+                  <li><a href="#"><i className="fas"></i>Bronnen</a></li>
+                  <li><a href="/Sending"><i className="fas"></i>Bestanden delen</a></li>
               </ul> 
               <div className="social_media">
-                <a href="#"><i className="fab fa-facebook-f"></i>Uitloggen</a>
+                <a href="#"><i className="fab"></i>Uitloggen</a>
             </div>
           </div>
       </div>);

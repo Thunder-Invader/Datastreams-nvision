@@ -1,8 +1,14 @@
-import React from "react";
+import React, { CSSProperties } from "react";
 
-class Container extends React.Component {
+
+class Container extends React.Component <{title: string }>{
     render() {
-      return <h1>Hello, {}</h1>;
+      return( <> 
+      <div style={{marginLeft: 200}}>
+      <h1>{this.props.title}</h1>
+          {this.props.children}
+      </div>
+      </>);
     }
   }
   export default Container;

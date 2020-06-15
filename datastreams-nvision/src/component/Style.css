@@ -1,11 +1,31 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
   }
+
+  p {
+    font-family: "Proxima Nova", Times, serif;
+  }
   
+  h1 {
+    font-family: "Proxima Nova", Times, serif;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-family: "Proxima Nova", Times, serif;
+    font-weight: bold;
+  }
+
+  .confirmation {
+    font-family: "Bree Serif", Times, serif;
+    font-weight: bold;
+    color: #37B4E5;
+  }
   body{
      background-color: #EFF3F8;
   }
